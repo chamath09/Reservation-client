@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Exam from "./components/pages/Exam";
 import Calender from "./components/pages/Calender";
 import Time from "./components/pages/Time";
-import Login from "./components/autrhentication/LOgin";
+import Login from "./components/autrhentication/Login";
 import Nav from "./components/navbar/Nav"; // Adjust the path as necessary
 import Register from "./components/autrhentication/Register";
 import Settings from "./components/Settings";
