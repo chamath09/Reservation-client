@@ -10,7 +10,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
-import Logout from "../autrhentication/Logout.jsx";
+import Logout from "../authentication/Logout.jsx";
 
 const navigation = [
   { name: "Home", href: "/home" },
