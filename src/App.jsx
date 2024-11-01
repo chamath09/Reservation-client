@@ -9,7 +9,7 @@ import Settings from "./components/Settings";
 import Profile from "./components/Profile";
 import Notice from "./components/pages/Notice"; // Import the Notice component
 import Notification from "./components/pages/Notification";
-import Login from "./components/autrhentication/LOgin";
+import Login from "./components/autrhentication/Login";
 
 function App() {
   const location = useLocation();
