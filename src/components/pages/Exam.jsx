@@ -9,7 +9,7 @@ const Exam = () => {
   const handleFetchExam = async () => {
     setError(''); 
     try {
-      const response = await axios.get(`http://localhost:5000/api/exams/${indexNumber}`);
+      const response = await axios.get(`https://reservation-server-seven.vercel.app/api/exams/${indexNumber}`);
       setExamData(response.data);
     } catch (err) {
       setError('No exams found for this index number.');

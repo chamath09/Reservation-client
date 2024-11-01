@@ -9,7 +9,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchUserDetails = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/user/${userEmail}`);
+        const response = await axios.get(`https://reservation-server-seven.vercel.app/api/user/${userEmail}`);
         setUser(response.data); 
       } catch (error) {
         console.error('Error fetching user details:', error);

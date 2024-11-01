@@ -15,7 +15,7 @@ export default function Register() {
     e.preventDefault();
     try {
       // Post registration data to the backend using the specific URL
-      const res = await axios.post('http://localhost:5000/api/auth/register', formData);
+      const res = await axios.post('https://reservation-server-seven.vercel.app/api/auth/register', formData);
       console.log('Registration successful:', res.data);
       navigate('/'); // Automatically navigate to login after successful registration
     } catch (error) {

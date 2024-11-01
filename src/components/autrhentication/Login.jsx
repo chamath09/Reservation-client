@@ -16,7 +16,7 @@ export default function Login() {
     setError(null); // Reset error message
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', formData); // Use the correct API route
+      const res = await axios.post('https://reservation-server-seven.vercel.app/api/auth/login', formData); // Use the correct API route
       console.log('Login successful:', res.data);
 
       // Redirect to home page after successful login

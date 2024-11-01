@@ -9,7 +9,7 @@ const LectureCard = () => {
   useEffect(() => {
     const fetchSessions = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/sessions'); 
+        const response = await axios.get('https://reservation-server-seven.vercel.app/api/sessions'); 
         setSessions(response.data); 
       } catch (error) {
         console.error('Error fetching sessions:', error);

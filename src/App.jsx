@@ -3,13 +3,13 @@ import Home from "./components/Home";
 import Exam from "./components/pages/Exam";
 import Calender from "./components/pages/Calender";
 import Time from "./components/pages/Time";
-import Login from "./components/autrhentication/Login";
 import Nav from "./components/navbar/Nav"; // Adjust the path as necessary
 import Register from "./components/autrhentication/Register";
 import Settings from "./components/Settings";
 import Profile from "./components/Profile";
 import Notice from "./components/pages/Notice"; // Import the Notice component
 import Notification from "./components/pages/Notification";
+import Login from "./components/autrhentication/LOgin";
 
 function App() {
   const location = useLocation();

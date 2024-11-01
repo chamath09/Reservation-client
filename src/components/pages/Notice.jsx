@@ -5,7 +5,7 @@ const Notice = () => {
 
   const fetchNotices = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/notices'); 
+      const response = await fetch('https://reservation-server-seven.vercel.app/api/notices'); 
       const data = await response.json();
       setNotices(data);
     } catch (error) {
